@@ -1,0 +1,20 @@
+{
+  "name": "demo-webcompnent",
+  "version": "0.1.0",
+  "authors": [
+    "sheng"
+  ],
+  "description": "demo for web components",
+  "license": "MIT",
+  "keywords": [
+    "webcomponent"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "~0.5.5"
+  }
+}

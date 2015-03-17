@@ -1,0 +1,21 @@
+<html>
+
+<head>
+  <link rel="import" href="components/demo.html">
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+</head>
+
+<body>
+  <say-hi name="Eric"></say-hi>
+  <shadow-element>
+    <div>( I'm in the light dom )</div>
+  </shadow-element>
+
+  <script>
+  document.addEventListener('WebComponentsReady', function() {
+    alert('finished');
+  }, false);
+  </script>
+</body>
+
+</html>
